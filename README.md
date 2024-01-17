@@ -1,5 +1,5 @@
 ## Auto MLFlow
-Automated MLOps library for MLFlow in python.
+An opensource automated MLOps library for MLFlow in python.
 
 #### Github Repository: [Click Here](https://github.com/mr-ravin/auto_mlflow)
 
