@@ -58,7 +58,7 @@ Your automated MLOps library for MLFlow.
   # Logging a model
   auto_mlflow.log_model(model_architecture, model_run_path="models") # the logged model can be used for model registry
   
-  end_run() # all the information is successfully saved.
+  auto_mlflow.end_run() # all the information is successfully saved.
   # complete 
   ```
 
