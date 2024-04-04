@@ -44,8 +44,8 @@ An opensource automated MLOps library for MLFlow in python.
     auto_mlflow.write_metric(metric_dict, step = epoch)
   
   # storing an image in MLFlow Server
-  numpy_array_gbr = visualised_image(.....)
-  auto_mlflow.write_image(numpy_array_gbr, image_name="image.jpg")
+  numpy_array_bgr = visualised_image(.....)
+  auto_mlflow.write_image(numpy_array_bgr, image_name="image.jpg")
   
   # storing text in a file inside MLFlow Server
   auto_mlflow.write_text(filename="additional_file.txt", filedata="object detection model")
