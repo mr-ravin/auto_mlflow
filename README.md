@@ -1,15 +1,16 @@
 ## 📦 **Auto MLFlow**
 
 ## 🔹 **Overview**
-Auto MLFlow is an open-source automated MLOps library for MLFlow in Python. It simplifies the logging and tracking of machine learning experiments by providing an intuitive and easy-to-use interface for interacting with MLFlow servers. 
+Auto MLFlow is an open-source automated MLOps library for MLFlow in Python. While MLFlow provides a UI for tracking experiments, Auto MLFlow automates and simplifies the logging process, reducing manual effort and ensuring seamless integration with ML workflows.
 
 With Auto MLFlow, you can:
-- Automatically log experiment parameters, metrics, artifacts, and models.
-- Store images, textual data, and logs in MLFlow without additional configuration.
-- Seamlessly integrate with deep learning frameworks like PyTorch and TensorFlow.
-- Simplify MLOps workflows by reducing manual logging efforts.
-- Maintain reproducibility and transparency in ML experiments.
+- **Automatically log** experiment parameters, metrics, artifacts, and models.
+- **Store images, textual data, and logs** in MLFlow without additional configuration.
+- **Seamlessly integrate** with deep learning frameworks like PyTorch and TensorFlow.
+- **Simplify MLOps workflows** by handling experiment tracking with minimal code.
+- **Maintain reproducibility and transparency** in ML experiments.
 
+This library is designed for researchers, data scientists, and ML engineers who want a streamlined approach to tracking and managing ML experiments.
 ---
 ## 🔧 **Development Details**
 - **👨‍💻 Developer:** [Ravin Kumar](https://mr-ravin.github.io)  
