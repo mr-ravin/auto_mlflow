@@ -7,7 +7,7 @@ import importlib
 import datetime
 import glob
 
-__version__ = '1.4'
+__version__ = '1.5'
 
 def write_param(param_dict={"learning_rate": "0.001", "total_epochs": "10"}):
     """

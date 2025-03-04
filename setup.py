@@ -5,14 +5,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="auto_mlflow",
-    version="1.4",
+    version="1.5",
     author="Ravin Kumar",
     author_email="mr.ravin_kumar@hotmail.com",
-    description="Auto MLFlow is an open-source automated MLOps library for MLFlow in Python. It simplifies the logging and tracking of machine learning experiments by providing an intuitive and easy-to-use interface for interacting with MLFlow servers.",
+    description="Auto MLFlow is an open-source automated MLOps library for MLFlow in Python. While MLFlow provides a UI for tracking experiments, Auto MLFlow automates and simplifies the logging process, reducing manual effort and ensuring seamless integration with ML workflows.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="http://github.com/mr-ravin/auto_mlflow",
-    keywords=['MLFlow', 'MLOps', 'Deep Learning', 'Automation'],
+    keywords=['MLFlow', 'MLOps', 'Deep Learning', 'Automation', 'Deployment', 'Deep Learning', 'Architecture'],
     install_requires=[  
         'mlflow>=2.9.2,<=2.20.3',
         'opencv-contrib-python>=4.7.0.72',
