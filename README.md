@@ -1,19 +1,45 @@
-## Auto MLFlow
-An opensource automated MLOps library for MLFlow in python.
+## 📦 **Auto MLFlow**
 
-#### Github Repository: [Click Here](https://github.com/mr-ravin/auto_mlflow)
+## 🔹 **Overview**
+Auto MLFlow is an open-source automated MLOps library for MLFlow in Python. It simplifies the logging and tracking of machine learning experiments by providing an intuitive and easy-to-use interface for interacting with MLFlow servers. 
 
-### Installation
-- Install MLFlow.
-  ```
-  pip3 install mlflow
-  ```
-- Install Auto MLFlow.
-  ```
-  pip3 install auto_mlflow
-  ```
+With Auto MLFlow, you can:
+- Automatically log experiment parameters, metrics, artifacts, and models.
+- Store images, textual data, and logs in MLFlow without additional configuration.
+- Seamlessly integrate with deep learning frameworks like PyTorch and TensorFlow.
+- Simplify MLOps workflows by reducing manual logging efforts.
+- Maintain reproducibility and transparency in ML experiments.
 
-#### Working Demonstration:
+---
+## 🔧 **Development Details**
+- **👨‍💻 Developer:** [Ravin Kumar](https://mr-ravin.github.io)  
+- **📂 GitHub Repository:** [https://github.com/mr-ravin/auto_mlflow](https://github.com/mr-ravin/auto_mlflow)
+
+---
+## 📥 **Installation**
+
+Install using pip:
+
+```sh
+pip install auto_mlflow
+```
+or,
+
+```sh
+pip install git+https://github.com/mr-ravin/auto_mlflow.git
+```
+
+---
+### 📌 **Dependencies:**
+- Python >= 3.7, < 3.13
+- mlflow >=2.9.2, <2.20.3
+- opencv-contrib-python: >=4.7.0.72
+- opencv-python: >=4.7.0.72
+- opencv-python-headless: >=4.8.0.74
+
+---
+
+## 🔄 **Example Usage**
 - Start a MLFlow Server.
   ```  
   mlflow server --host 127.0.0.1 --port 5555
@@ -64,7 +90,9 @@ An opensource automated MLOps library for MLFlow in python.
   # complete 
   ```
 
-LICENSE
+---
+
+## 📜 **Copyright License**
 ```
 Copyright (c) 2024 Ravin Kumar
 Website: https://mr-ravin.github.io
