@@ -11,6 +11,7 @@ With Auto MLFlow, you can:
 - **Maintain reproducibility and transparency** in ML experiments.
 
 This library is designed for researchers, data scientists, and ML engineers who want a streamlined approach to tracking and managing ML experiments.
+
 ---
 ## 🔧 **Development Details**
 - **👨‍💻 Developer:** [Ravin Kumar](https://mr-ravin.github.io)  
