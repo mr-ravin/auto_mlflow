@@ -32,10 +32,10 @@ pip install git+https://github.com/mr-ravin/auto_mlflow.git
 ---
 ### 📌 **Dependencies:**
 - Python >= 3.7, < 3.13
-- mlflow >=2.9.2, <2.20.3
-- opencv-contrib-python: >=4.7.0.72
-- opencv-python: >=4.7.0.72
-- opencv-python-headless: >=4.8.0.74
+- mlflow: >= 2.9.2, <= 2.20.3
+- opencv-contrib-python: >= 4.7.0.72
+- opencv-python: >= 4.7.0.72
+- opencv-python-headless: >= 4.8.0.74
 
 ---
 
